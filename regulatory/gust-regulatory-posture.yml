@@ -1,0 +1,20 @@
+generated: '2026-10-14'
+method: probed
+source: https://gust.com/privacy-policy/
+signals:
+  data_subject_request:
+    url: https://gust.com/privacy-policy/
+    note: Users can request access to their personal data and request corrections or deletions.
+    evidence:
+      - source: https://gust.com/privacy-policy/
+        http_status: 200
+        fetched: null
+        quote: "Upon request Gust will provide you with information about whether we hold any of your personal information. If your personal data changes, you may correct, update, or amend by making the change on our member information page or by emailing our Customer Support at support@gust.com or by contacting us by postal mail at the contact information listed below."
+  data_retention:
+    url: https://gust.com/privacy-policy/
+    note: Retains data while account active and for legal/compliance purposes.
+    evidence:
+      - source: https://gust.com/privacy-policy/
+        http_status: 200
+        fetched: null
+        quote: "We will retain your information for as long as your account is active to provide you services.  We will retain and use your information as necessary to comply with our legal obligations, resolve disputes, and enforce our agreements."

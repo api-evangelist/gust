@@ -1,0 +1,23 @@
+generated: '2026-10-14'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://gust.com/pricing/
+sources:
+- https://gust.com/pricing/
+name: Gust pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Start
+  price_text: $450 / year
+  price: 450
+  description: Everything you need to START your company.
+- name: Accelerate
+  price_text: $1250 / year
+  price: 1250
+  description: Everything you need to RUN your company.
+- name: Raise
+  price_text: $3500 / year
+  price: 3500
+  description: Everything you need to issue options.
+docs: https://gust.com/pricing/

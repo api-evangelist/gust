@@ -1,23 +1,109 @@
 aid: gust
+
 name: Gust
-description: 'Gust is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added
-  to the network as a stub for full-pipeline profiling.'
+
+description: Gust is a comprehensive platform that empowers entrepreneurs to start, grow, and fund their ventures. It offers tools for company
+  formation, fundraising, investor relations, and access to a vast network of accelerators and angel groups. With over 800,000 founders, Gust
+  provides educational resources, benchmarking, and a marketplace for startup services, making it a central hub for the startup ecosystem.
+
 url: https://raw.githubusercontent.com/api-evangelist/gust/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:tag-qc
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-14 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-14'
+
 modified: '2026-10-14'
+
 tags:
-- Company
-apis: []
+- Incorporation
+- Equity Management
+- Fundraising
+- Startup Tools
+- Investor Tools
+- Accelerator Management
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/gust-plans-pricing.yml
+- type: Spectral
+  url: rules/gust-rules.yml
+- type: Webhooks
+  url: asyncapi/gust-webhooks.yml
+- type: Conformance
+  url: conformance/gust-conformance.yml
+- type: Hosts
+  url: hosts/gust-hosts.yml
+- type: Vendors
+  url: vendors/gust-vendors.yml
+- type: DomainSecurity
+  url: security/gust-domain-security.yml
 - type: Website
   url: https://gust.com
+- type: Documentation
+  url: https://gust.helpscoutdocs.com/
+- type: GettingStarted
+  url: https://gust.com/start-your-journey/
+- type: Support
+  url: https://gust.helpscoutdocs.com/
+- type: Blog
+  url: https://gust.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/gust
+- type: Pricing
+  url: https://gust.com/pricing/
+- type: SignUp
+  url: https://gust.com/launch/
+- type: TermsOfService
+  url: https://gust.com/tos/
+- type: PrivacyPolicy
+  url: https://gust.com/privacy-policy/
+- type: Postman
+  url: https://www.postman.com/gust/workspace
+
+apis:
+- name: Gust API
+  description: Gust provides a developer portal and documentation at gust.helpscoutdocs.com, but no machine‑readable contract was found.
+  humanURL: https://gust.helpscoutdocs.com/
+  baseURL: null
+  aid: gust:gust-api-2
+- aid: gust:gust-api
+  name: Gust API
+  description: 'Gust API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-14); not the
+
+    provider''s own document.'
+  humanURL: https://developers.inspectall.com/article/168-overview
+  baseURL: https://api.inspectall.com
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/gust-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-10-14'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - url: https://gust.com
+    status: 200
+x-enrichment:
+  date: '2026-10-14'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

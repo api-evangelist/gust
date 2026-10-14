@@ -1,0 +1,42 @@
+openapi: 3.1.0
+info:
+  title: Gust API
+  version: '2026-10-14'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-14: 1 operation(s) read from 1 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; Gust has published no machine-readable contract that the pipeline
+    could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 1
+    documentation: 0
+    pages-with-code: 1
+    pages-read: 1
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-14'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://developers.inspectall.com/article/168-overview
+servers:
+- url: https://api.inspectall.com
+paths:
+  /v1/accounts:
+    get:
+      operationId: get_v1_accounts
+      tags:
+      - Accounts
+      summary: GET /v1/accounts
+      x-source: https://developers.inspectall.com/article/168-overview
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: code-example
+        language: curl
+        snippet: "curl -u a1b3c3:X https://api.inspectall.com/v1/accounts \n Authenticating with invalid credentials will return 401 Unauthorized\
+          \ \n Pagination \n Requests that return multiple items will be paginated to 50 items by default. You can specify further pages with\
+          \ the ?page parameter. For some resources, you can also set a custom page size with the ?per_page parameter. \n Note that page numbering\
+          \ is 1-based "
+tags:
+- name: Accounts

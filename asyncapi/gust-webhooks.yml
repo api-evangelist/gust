@@ -1,0 +1,41 @@
+generated: '2026-10-14'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developers.inspectall.com/article/907-webhooks
+sources:
+- https://developers.inspectall.com/article/907-webhooks
+- https://docs.getultimateauction.com/category/121-notifications
+- https://docs.getultimateauction.com/article/122-email-notifications
+- https://docs.getultimateauction.com/article/63-auction-events-shortcode
+description: InspectAll provides webhook notifications for various system events.
+events:
+- event: New Account
+  description: Fires after an account has been created.
+- event: New Folder
+  description: Fires after a folder has been created.
+- event: New Folder Schedule
+  description: Fires after a folder has had a new schedule added to it.
+- event: New Folder File
+  description: Fires when a new file is attached to a folder (used for exporting reports).
+- event: Closed Folder
+  description: Fires after a folder has been closed.
+- event: Opened Folder
+  description: Fires after a folder has been opened.
+- event: New Asset
+  description: Fires after a new asset is created.
+- event: Deleted Asset
+  description: Fires after a asset has been deleted.
+- event: New Form
+  description: Fires after a new form is created.
+- event: Completed Form
+  description: Fires after a form is marked complete.
+- event: Incompleted Form
+  description: Fires after a form is marked from complete to incomplete.
+- event: New Priority-High
+  description: Fires when a High priority is found on a form.
+- event: New Priority-Medium
+  description: Fires when a Medium priority is found on a form.
+- event: New Priority-Low
+  description: Fires when a Low priority is found on a form.
+delivery: {}
+docs: https://developers.inspectall.com/article/907-webhooks

@@ -1,0 +1,170 @@
+generated: '2026-10-14'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 13
+  own: 4
+  other_domain: 7
+  platform: 2
+  roles:
+  - api
+  - collections
+  - docs
+  - other
+  - portal
+  - source
+  - website
+hosts:
+- host: api.gust.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: gust.com
+  role: api
+  relation: own
+- host: api.helpscoutdocs.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: helpscoutdocs.com
+  role: api
+  relation: other-domain
+- host: api.inspectall.com
+  found_by:
+  - apis[]
+  types: []
+  serves:
+  - api
+  registrable_domain: inspectall.com
+  role: api
+  relation: other-domain
+- host: cofounders.gust.com
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: gust.com
+  role: other
+  relation: own
+- host: developers.helpscoutdocs.com
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  - well-known
+  types: []
+  serves: []
+  title: Developers
+  status: 200
+  registrable_domain: helpscoutdocs.com
+  role: portal
+  relation: other-domain
+- host: developers.inspectall.com
+  found_by:
+  - apis[]
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: inspectall.com
+  role: portal
+  relation: other-domain
+- host: docs.getultimateauction.com
+  found_by:
+  - docs-index
+  types: []
+  serves:
+  - docs
+  registrable_domain: getultimateauction.com
+  role: docs
+  relation: other-domain
+- host: docs.helpscoutdocs.com
+  found_by:
+  - probed
+  - site-links
+  - namespace-probe
+  - well-known
+  types: []
+  serves: []
+  title: Ultimate Auction Theme (Pro)
+  status: 200
+  registrable_domain: helpscoutdocs.com
+  role: docs
+  relation: other-domain
+- host: github.com
+  found_by:
+  - pointer
+  types:
+  - GitHubOrganization
+  serves: []
+  registrable_domain: github.com
+  role: source
+  relation: platform
+- host: gust.com
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  - GettingStarted
+  - Blog
+  - Pricing
+  - SignUp
+  - TermsOfService
+  - PrivacyPolicy
+  serves:
+  - docs
+  - cdn
+  - hosting
+  vendor: cloudflare
+  registrable_domain: gust.com
+  role: website
+  relation: own
+- host: gust.helpscoutdocs.com
+  found_by:
+  - pointer
+  - apis[]
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  types:
+  - Documentation
+  - Support
+  serves:
+  - docs
+  registrable_domain: helpscoutdocs.com
+  role: docs
+  relation: other-domain
+- host: launch.gust.com
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: gust.com
+  role: other
+  relation: own
+- host: www.postman.com
+  found_by:
+  - pointer
+  - vendor-detect
+  types:
+  - Postman
+  serves:
+  - api-collections
+  vendor: postman
+  registrable_domain: postman.com
+  role: collections
+  relation: platform
