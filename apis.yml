@@ -75,22 +75,22 @@ common:
 
 apis:
 - name: Gust API
-  description: Gust provides a developer portal and documentation at gust.helpscoutdocs.com, but no machine‑readable contract was found.
+  description: >-
+    Gust provides a developer portal and documentation at gust.helpscoutdocs.com, but no machine‑readable
+    contract was found.
   humanURL: https://gust.helpscoutdocs.com/
   baseURL: null
   aid: gust:gust-api-2
-- aid: gust:gust-api
-  name: Gust API
-  description: 'Gust API as documented publicly: 1 operations. Contract generated from the documentation by API Evangelist (2026-10-14); not the
-
-    provider''s own document.'
-  humanURL: https://developers.inspectall.com/article/168-overview
+- aid: gust:gust-accounts-api
+  name: Gust Accounts API
+  description: The Accounts API from Gust — 1 operation(s) for accounts.
+  humanURL: https://gust.helpscoutdocs.com/
   baseURL: https://api.inspectall.com
+  tags:
+  - Accounts
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/gust-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/gust-accounts-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: no-machine-readable-spec
