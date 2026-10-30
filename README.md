@@ -64,5 +64,111 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gust is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://gust.com
+Gust is a comprehensive platform that empowers entrepreneurs to start, grow, and fund their ventures. It offers tools for company formation, fundraising, investor relations, and access to a vast network of accelerators and angel groups. With over 800,000 founders, Gust provides educational resources, benchmarking, and a marketplace for startup services, making it a central hub for the startup ecosystem.
+
+**Areas:** Incorporation · Equity Management · Fundraising · Startup Tools · Investor Tools · Accelerator Management
+
+## Gust on APIs.io
+
+Everything profiled for Gust is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gust/](https://apis.io/providers/gust/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Gust API](https://apis.io/apis/gust/gust-api-2/) — Gust provides a developer portal and documentation at gust.helpscoutdocs.com, but no machine‑readable contract was found.
+- [Gust Accounts API](https://apis.io/apis/gust/gust-accounts-api/) — The Accounts API from Gust — 1 operation(s) for accounts.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Gust Webhooks](https://apis.io/asyncapis/gust/gust-webhooks/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Gust API Rules](https://apis.io/rules/gust/gust-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gust Domain Security](https://apis.io/security/gust/gust-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Gust Plans Pricing](https://apis.io/plans/gust/gust-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gust.com)
+- [Documentation](https://gust.helpscoutdocs.com/)
+- [Getting started](https://gust.com/start-your-journey/)
+- [Pricing](https://gust.com/pricing/)
+- [Sign up](https://gust.com/launch/)
+- [Support](https://gust.helpscoutdocs.com/)
+- [Blog](https://gust.com/blog/)
+- [Terms of service](https://gust.com/tos/)
+- [Privacy policy](https://gust.com/privacy-policy/)
+- [GitHub](https://github.com/gust)
+
+## API Evangelist rating
+
+**Kin Score 36.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 18.6 |
+| Contract governance | 18.2 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 33.3 |
+| Access clarity | 76.3 |
+
+**Agent readiness 20.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | na |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | na |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | na |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gust/](https://apis.io/providers/gust/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gust: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gust/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
